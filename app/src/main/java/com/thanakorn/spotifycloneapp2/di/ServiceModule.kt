@@ -6,6 +6,7 @@ import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
+import com.thanakorn.spotifycloneapp2.exoplayer.MusicService
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 
@@ -26,9 +27,10 @@ val serviceModule = module {
         context: Context
     )= DefaultDataSourceFactory(context,Util.getUserAgent(context,"Spotify App"))
 
-        scope<AudioAttributes> {
+        scope<MusicService> {
            scoped { provideAudioAttributes() }
             scoped { provideExoPlayer(androidContext(),get())}
+            scoped { provideDataSourceFactory(androidContext()) }
        }
 
 }
