@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "481327784097",
+    "project_id": "clonespotifypleumpractice",
+    "storage_bucket": "clonespotifypleumpractice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481327784097:android:e69d05bf94f9c2f8d0d0e0",
+        "android_client_info": {
+          "package_name": "com.pleum.clonespotifypleum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqX5njz-vkSqRRkKvsI2Cx_8D6K5Aw-8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481327784097:android:81e2219055682016d0d0e0",
+        "android_client_info": {
+          "package_name": "com.pleum.conespotifypleum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqX5njz-vkSqRRkKvsI2Cx_8D6K5Aw-8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481327784097:android:d7fc4bf4302b36f9d0d0e0",
+        "android_client_info": {
+          "package_name": "com.thanakorn.spotifycloneapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqX5njz-vkSqRRkKvsI2Cx_8D6K5Aw-8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481327784097-fuvim99970ad5ktmuqcqs6p5c0c7qvml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
