@@ -93,7 +93,7 @@ class MusicService : MediaBrowserServiceCompat(){
         mediaSessionConnector.setQueueNavigator(MusicQueueNavigator())
         mediaSessionConnector.setPlayer(exoPlayer)
 
-        musicPlayerEventListener =  MusicPlayerEventListener()
+        musicPlayerEventListener =  MusicPlayerEventListener(this)
         exoPlayer.addListener(musicPlayerEventListener)
         musicNotificationManager.showNotification(exoPlayer)
     }
