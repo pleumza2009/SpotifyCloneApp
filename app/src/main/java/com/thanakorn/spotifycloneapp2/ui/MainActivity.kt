@@ -6,6 +6,7 @@ import com.bumptech.glide.RequestManager
 import com.thanakorn.spotifycloneapp2.databinding.ActivityMainBinding
 import org.koin.android.ext.android.inject
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
